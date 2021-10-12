@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+  padding: 10px;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.header__middle {
+  display: flex;
+  align-items: center;
+  flex: 0.7;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search_mail {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search_mail > input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  outline-width: 0;
+  background-color: transparent;
+  font-size: medium;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}

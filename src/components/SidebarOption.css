@@ -1,0 +1,23 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #818181;
+  cursor: pointer;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+  padding: 5px;
+}
+
+.sidebarOption span {
+  display: none;
+  font-weight: 300;
+}
+
+.sidebarOption:hover span {
+  display: inline;
+}
