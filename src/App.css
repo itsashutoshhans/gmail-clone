@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__body {
+  display: flex;
+  flex: 1;
+}

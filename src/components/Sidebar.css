@@ -1,11 +1,30 @@
+.sidebar {
+  flex: 0.3;
+  padding-right: 10px;
+  max-width: 256px;
+}
+
+
 .sidebar .sidebar__compose {
   margin-top: 15px;
   margin-left: 10px;
   margin-bottom: 15px;
-  color: gray;
+  color: #3c4043;
   padding: 15px;
   border-radius: 30px;
   box-shadow:  1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
   text-transform: capitalize;
-  
+  width: 150px;
+}
+
+.sidebar__meet {
+  border-top: 1px solid whitesmoke;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.sidebar .sidebar__meet > h3 {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
 }
