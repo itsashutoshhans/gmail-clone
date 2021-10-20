@@ -66,3 +66,9 @@
   right: 0;
   color: gray;
 }
+
+.mail__title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 0.7;
+}

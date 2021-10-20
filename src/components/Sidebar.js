@@ -12,11 +12,15 @@ import NearMeIcon from '@mui/icons-material/NearMe';
 import NoteIcon from '@mui/icons-material/Note';
 import VideocamIcon from '@mui/icons-material/Videocam';
 import KeyboardIcon from '@mui/icons-material/Keyboard';
+import { useDispatch } from 'react-redux';
+import { openSendMessage } from '../features/mailSlice';
 
 function Sidebar() {
+  const dispatch = useDispatch();
   return (
     <div className="sidebar">
       <Button
+        onClick={() => dispatch(openSendMessage())}
         className="sidebar__compose"
         startIcon={<AddIcon />}>Compose</Button>
       <SidebarOption Icon={InboxIcon} title="Inbox" number={54} selected={true}/>
